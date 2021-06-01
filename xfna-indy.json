@@ -1,0 +1,127 @@
+[
+  {
+    "name":"",
+    "id":0,
+    "daysToManufacture":"0",
+    "daysToCopy":"0",
+    "ME":0,
+    "TE":0,
+    "minerals":{},
+    "pi":{},
+    "reactions":{},
+    "components":{}
+  },
+  {
+    "name":"Merlin",
+    "id":1,
+    "daysToManufacture":"1h20m00s",
+    "daysToCopy":"1h20m00s",
+    "ME":10,
+    "TE":20,
+    "minerals":{
+      "tritanium": 28800,
+      "pyerite": 5400,
+      "mexallon": 2250,
+      "isogen": 450
+    },
+    "pi": null,
+    "reactions": null,
+    "components": null
+  },
+  {
+    "name":"Miasmos",
+    "id":2,
+    "daysToManufacture":"2h48m00s",
+    "daysToCopy":"2h48m00s",
+    "ME":10,
+    "TE":16,
+    "minerals":{
+      "tritanium": 72000,
+      "pyerite": 13500,
+      "mexallon": 3375,
+      "isogen": 1800,
+      "nocxium": 675,
+      "zydrine": 113,
+      "megacyte": 63
+    },
+    "pi": null,
+    "reactions": null,
+    "components": null
+  },
+  {
+    "name":"Dominix",
+    "id":3,
+    "daysToManufacture":"4h12m00s",
+    "daysToCopy":"4h12m00s",
+    "ME":9,
+    "TE":16,
+    "minerals":{
+      "tritanium": 7280000,
+      "pyerite": 3640000,
+      "mexallon": 546000,
+      "isogen": 364000,
+      "nocxium": 10920,
+      "zydrine": 5460,
+      "megacyte": 2730
+    },
+    "pi": null,
+    "reactions": null,
+    "components": {
+      "autoIntegrityPreservationSeal": {
+        "name":"Auto Integrity Preservation Seal",
+        "id":4,
+        "daysToManufacture":"24m00s",
+        "daysToCopy":"24m00s",
+        "ME":10,
+        "TE":20,
+        "minerals": null,
+        "pi": {
+          "bacteria": 72,
+          "protines": 36
+        },
+        "reactions": {
+          "reenforcedCarbonFiber": 9
+        },
+        "components": null,
+        "quantity": 182
+      },
+      "coreTemperatureRegulator": {
+        "name":"Core Temperature Regulator",
+        "id":5,
+        "daysToManufacture":"2h13m00s",
+        "daysToCopy":"2h13m00s",
+        "ME":9,
+        "TE":0,
+        "minerals": null,
+        "pi":{
+          "chiralStructures": 91,
+          "water": 2275
+        },
+        "reactions":{
+          "reenforcedCarbonFiber": 455,
+          "pressurizedOxidizers": 455
+        },
+        "components": null,
+        "quantity":1
+      },
+      "lifeSupportBackupUnit": {
+        "name":"Life Support Backup Unit",
+        "id":6,
+        "daysToManufacture":"24m00s",
+        "daysToCopy":"24m00s",
+        "ME":10,
+        "TE":20,
+        "minerals": null,
+        "pi":{
+          "water": 135,
+          "oxygen": 180
+        },
+        "reactions": {
+          "reenforcedCarbonFiber": 9
+        },
+        "components": null,
+        "quantity": 91
+      }
+    }
+  }
+]
